@@ -1,0 +1,34 @@
+.searchContainer{
+    width:500px;
+}
+.searchInput{
+    width: 100%;
+    padding: 1rem;
+    border:1px solid #CC0000;
+    outline: none;
+}
+
+.searchResultContainer{
+    width: 100%;
+    border:1px solid #CC0000;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: start;
+    justify-content: start;
+    max-height: 300px;
+    overflow-y:scroll;
+}
+
+
+.searchResultContainer p {
+    font-size: small;
+    font-weight: 400;
+    text-align: left;
+}
+
+.searchContainer p:hover{
+    font-size: larger;
+    font-weight: 500;
+}

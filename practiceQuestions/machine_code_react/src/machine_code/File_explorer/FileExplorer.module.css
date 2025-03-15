@@ -1,0 +1,42 @@
+.fileTreeContainer{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    justify-content: start;
+    padding:1rem;
+    align-items: start;
+}
+
+.fileTreeStructure{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem
+}
+
+.folderNameLabel{
+    font-size: 14px;
+} 
+
+.featuresContainer{
+    display: flex;
+    gap:0.2rem;
+    align-items: center;
+    justify-content: start;
+}
+
+.filebtnContainer{
+    display: flex;
+    gap:1rem
+}
+
+.fileExpanderbtn{
+    border:none;
+    outline:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    gap:0.5rem;
+    background-color: transparent;
+}
