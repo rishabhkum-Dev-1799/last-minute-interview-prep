@@ -1,0 +1,17 @@
+
+.mainContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.checkBoxContainer{
+    width: 100%;
+    text-align: start;
+}
+.children{
+    padding-left: 20px;
+}

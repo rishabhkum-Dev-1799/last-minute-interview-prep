@@ -8,11 +8,12 @@ import CustomCarousel from './machine_code/CustomCarousel/CustomCarousel';
 import CustomChipsInput from './machine_code/ChipsInput/ChipsInput';
 import TrackingCircle from './machine_code/TrackingCircle/TrackingCircle';
 import CounterRedux from './redux/component/Counter';
+import DynamicCheckBox from './machine_code/Dynamic_CheckBox🔥/DynamicCheckbox';
 
 function App() {
   return (
     <div>
-      <CounterRedux />
+      <DynamicCheckBox />
     </div>
   );
 }
